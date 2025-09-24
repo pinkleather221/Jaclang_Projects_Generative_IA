@@ -1,0 +1,16 @@
+# Python venv
+jac-env/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node / React
+node_modules/
+
+# Rasa models and cache
+*.tar.gz
+models/
+
+# Environment files
+.env
