@@ -1,14 +1,13 @@
  # Jaclang Projects for Kenyan Challenges
 
-This repository contains two simple yet innovative projects built using **Jaclang**, focusing on solving common problems in Kenyan urban centers like Mombasa and Nairobi.
+This repository contains simple yet innovative project built using **Jaclang**, focusing on solving common problems in Kenyan urban centers like Mombasa and Nairobi.
 
 
-| **1. Water Shortage Reporting Agent** | Classifying user reports on water issues (quality, shortage, infrastructure). | LLM-backed Reasoning (`byllm` extension) |
-| **2. Traffic Fine Data Cleaner** | Cleaning and aggregating inconsistent traffic fine records. | Built-in Graph and Data Manipulation |
+| **1. Water Shortage Reporting Agent** | Classifying user reports on water issues (quality, shortage, infrastructure). | LLM-backed Reasoning (`byllm` extension) 
 
 ## 🛠️ Prerequisites
 
-To run both projects, you need to have **Python 3.10+** and **Jaclang** installed, along with the required extensions.
+To run this project, you need to have **Python 3.10+** and **Jaclang** installed, along with the required extensions.
 
 1.  **Set up your environment (if you haven't already):**
     ```bash
