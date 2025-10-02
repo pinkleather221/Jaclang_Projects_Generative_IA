@@ -1,0 +1,19 @@
+WATER REPORT ANALYSIS
+==================================================
+Total Reports: 500
+Shortage Issues: 199
+Quality Issues: 215
+Infrastructure Issues: 37
+Billing Issues: 0
+
+Areas Affected:
+  Bamburi: 37
+  Changamwe: 56
+  Kisauni: 47
+  Likoni: 51
+  Mikindani: 58
+  Mtwapa: 51
+  Nyali: 48
+  Port Reitz: 56
+  Shanzu: 38
+  Tudor: 58
