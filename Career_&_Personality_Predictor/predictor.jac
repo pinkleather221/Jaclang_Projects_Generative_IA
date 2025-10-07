@@ -38,12 +38,9 @@ with entry{
     career_suggestions = suggest_career(user_profile);
     print(f "Suggested career: {career_suggestions}");
 
-    chosen = career_suggestions[0];
+    chosen = career_suggestions[0,1]; #pick first two choices 
     print(f "Focused career: {chosen}");
 
     advice = learning_path(user_profile, chosen);
     print(f "Learning path advice:\n{advice}");
-
-
-
 }
