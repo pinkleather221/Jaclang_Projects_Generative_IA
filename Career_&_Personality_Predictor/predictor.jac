@@ -1,5 +1,5 @@
 import from byllm { Model}
-glob llm = Model(model_name ="gemini/gemini-2.0-flash")
+glob llm = Model(model_name ="gemini/gemini-2.0-flash");
 
 """Represents a user's personal and skill profile"""
 obj Profile{
@@ -22,3 +22,28 @@ def suggest_career(profile: Profile) -> list[str] by llm();
 
 """Gives advice on next learning steps based on career suggestion"""
 def learning_path(profile: Profile, chosen_career: str) -> str by llm();
+
+with entry{
+    user_profile = Profile(
+        name = "Nelly Mogere",
+        age = 21;
+        interests =["cloud computing", "cybersecurity", "data science", AI],
+        skills = [ "python", "linux", "web development", "aws"],
+        personality_type = ["keen to detail", "curious", "adaptable", "hardworking"]
+    );
+
+
+"""Prints career suggestions and learning path advice for a given user profile"""
+    print( "Generating career suggestions...");
+    career_suggestions = suggest_career(user_profile);
+    print(f "Suggested career: {career_suggestions}");
+
+    chosen = career_suggestions[0];
+    print(f "Focused career: {chosen}");
+
+    advice = learning_path(user_profile, chosen);
+    print(f "Learning path advice:\n{advice}");
+
+
+
+}
