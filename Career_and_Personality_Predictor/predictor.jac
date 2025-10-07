@@ -34,7 +34,7 @@ with entry{
 
 
 """Prints career suggestions and learning path advice for a given user profile"""
-    print( "Generating career suggestions for {user_profile.name}...");
+    print( "Generating career suggestions...");
     career_suggestions = suggest_career(user_profile);
     print(f "Suggested career: {career_suggestions}");
 
