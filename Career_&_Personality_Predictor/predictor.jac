@@ -16,3 +16,6 @@ sem Profile.age = "The age of the person in years";
 sem Profile.interests = "A list of the person's interests and hobbies";
 sem Profile.skills = "A list of the person's professional skills";
 sem Profile.personality_type = "A list of personality traits based on common frameworks like MBTI or Big Five";
+
+"""Suggests career paths and learning directions based on the profile"""
+def suggest_career(profile: Profile) -> list[str] by llm();
