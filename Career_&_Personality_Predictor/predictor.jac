@@ -19,3 +19,6 @@ sem Profile.personality_type = "A list of personality traits based on common fra
 
 """Suggests career paths and learning directions based on the profile"""
 def suggest_career(profile: Profile) -> list[str] by llm();
+
+"""Gives advice on next learning steps based on career suggestion"""
+def learning_path(profile: Profile, chosen_career: str) -> str by llm();
