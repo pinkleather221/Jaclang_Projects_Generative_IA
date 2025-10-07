@@ -32,7 +32,18 @@ with entry{
         personality_type = ["keen to detail", "curious", "adaptable", "hardworking"]
     );
 
-    
+
+"""Prints career suggestions and learning path advice for a given user profile"""
+    print( "Generating career suggestions {user_profile.name}...");
+    career_suggestions = suggest_career(user_profile);
+    print(f "Suggested career: {career_suggestions}");
+
+    chosen = career_suggestions[0];
+    print(f "Focused career: {chosen}");
+
+    advice = learning_path(user_profile, chosen);
+    print(f "Learning path advice:\n{advice}");
+
 
 
 }
